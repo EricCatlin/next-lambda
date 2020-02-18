@@ -8,7 +8,7 @@ const Component = () => {
     query: { dynamic }
   } = useRouter();
 
-  const { data, error } = useSWR(`http://localhost:3000/api/mock/${dynamic}`, fetcher)
+  const { data, error } = useSWR(`http://localhost:3000/api/mock/${dynamic}/sub`, fetcher)
 
   if (error) return <div>failed to load</div>
   if (!data) return <div>loading...</div>

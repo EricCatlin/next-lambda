@@ -4,7 +4,7 @@ export default (req, res) => {
   const { dynamic } = req.query;
   res.status(200).json({
     hello: "world",
-    source: "api/mock/[dynamic]",
+    source: "api/mock/[...dynamic]",
     dynamic
   });
 };
