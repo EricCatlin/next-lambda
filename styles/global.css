@@ -1,3 +1,84 @@
 body {
   margin: 0px;
+  height:100vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  height: 100%;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.elevated {
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.sunrise-1-background {
+  background-color: #ffae8f;
+}
+.sunrise-2-background {
+  background-color: #ff677d;
+}
+.sunrise-3-background {
+  background-color: #cd6684;
+}
+.sunrise-4-background {
+  background-color: #6f5a7e;
+}
+
+.sunrise-1-text {
+  color: #ffae8f;
+}
+.sunrise-2-text {
+  color: #ff677d;
+}
+.sunrise-3-text {
+  color: #cd6684;
+}
+.sunrise-4-text {
+  color: #6f5a7e;
+}
+
+.forest-1-background {
+  background-color: #ffae8f;
+}
+.forest-2-background {
+  background-color: #ff677d;
+}
+.forest-3-background {
+  background-color: #cd6684;
+}
+.forest-4-background {
+  background-color: #6f5a7e;
+}
+
+.forest-1-text {
+  color: #ffae8f;
+}
+.forest-2-text {
+  color: #ff677d;
+}
+.forest-3-text {
+  color: #cd6684;
+}
+.forest-4-text {
+  color: #6f5a7e;
 }
